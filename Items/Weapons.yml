@@ -1,0 +1,14 @@
+asobi_tai_ロッド仮:
+  Id: CARROT_ON_A_STICK
+  Display: "ロッド"
+  Lore:
+  - "君もこの杖を使って魔法少女になろう！"
+  Options:
+   Unbreakable: true
+   Itemversion: 1
+   PreventStacking: true
+  Attributes:
+    Mainhand:
+      Damage: 0
+  Skills:
+  - skill{s=ロッド仮_Skill} @self ~onUse 
