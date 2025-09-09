@@ -1,6 +1,6 @@
 ロッド仮_Skill:
-  Skill:
   Cooldown: 3
+  Skill:
   - projectile{
     ot=[
       - e:blockMask{m=MUD;d=100} @origin
