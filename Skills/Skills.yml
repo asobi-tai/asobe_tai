@@ -2,7 +2,7 @@
   Cooldown: 1
   Skills:
   - projectile{
-    b=DISPLAY;mat=mud;hp=false;hnp=true;v=30;sb=false;bulletscale=1.3;
+    b=DISPLAY;mat=mud;hp=false;hnp=true;v=30;sb=false;
     oh=[
       - e:p{p=Campfire_Cosy_Smoke;a=19;vs=1;hs=1} @origin 
       - damage{a=10}
