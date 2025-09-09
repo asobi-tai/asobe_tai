@@ -1,5 +1,10 @@
 ロッド仮_Skill:
   Cooldown: 1
+  Conditions:
+- hasMana{a=>200;
+  onFail=[
+    - message{m="&cマナが足りません。"} @self 
+  ]}
   Skills:
   - projectile{
     b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;bulletscale=1.5;
@@ -7,3 +12,4 @@
       - e:p{p=Campfire_Cosy_Smoke;a=19;vs=1;hs=1} @origin 
       - damage{a=10}
     ]} @TL
+    - modifyMana{a=-70} @self
