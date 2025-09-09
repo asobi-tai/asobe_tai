@@ -11,4 +11,4 @@ asobi_tai_ロッド仮:
     Mainhand:
       Damage: 20 ADD
   Skills:
-  - skill{s=ロッド仮_Skill} @self ~onUse 
+  - skill{s=ロッド仮_Skill} @self ~onSwing 

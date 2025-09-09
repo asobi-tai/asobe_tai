@@ -1,5 +1,5 @@
 ロッド仮_Skill:
-  Cooldown: 3
+  Cooldown: 1
   Skills:
   - projectile{
     b=DISPLAY;mat=mud;hp=false;hnp=true;v=30;se=false;
