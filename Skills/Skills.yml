@@ -1,7 +1,7 @@
 ロッド仮_Skill:
   Cooldown: 1
   Conditions:
-- hasMana{a=>200;
+  - hasMana{a=>200;
   onFail=[
     - message{m="&cマナが足りません。"} @self 
   ]}
