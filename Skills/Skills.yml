@@ -4,6 +4,6 @@
   - projectile{
     b=DISPLAY;mat=mud;hp=false;hnp=true; 
     oh=[
-      - e:p{e=Explosion}
+      - e:p{e=Campfire_Cosy_Smoke;a=10}
       - damage{a=10}
     ]} @TL
