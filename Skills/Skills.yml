@@ -2,9 +2,7 @@
   Cooldown: 3
   Skills:
   - projectile{
-    ot=[
-      - e:blockMask{m=MUD;d=100} @origin
-    ];
+      - e:blockMask{m=MUD;d=100;b=DISPLAY;mat=mud;hp=false;hnp=true } @origin
     oh=[
       - e:p{e=Explosion}
       - damage{a=10}
