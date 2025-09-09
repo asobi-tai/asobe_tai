@@ -1,0 +1,11 @@
+ロッド仮_Skill:
+  Skill:
+  Cooldown: 3
+  - projectile{
+    ot=[
+      - e:blockMask{m=MUD;d=100} @origin
+    ];
+    oh=[
+      - e:p{e=Explosion}
+      - damage{a=10}
+    ]}

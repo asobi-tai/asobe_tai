@@ -10,3 +10,5 @@ asobi_tai_ロッド仮:
   Attributes:
     Mainhand:
       Damage: 0
+  Skill:
+  - skill{s=ロッド仮_Skill} @self ~onUse 
