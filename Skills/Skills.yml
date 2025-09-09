@@ -4,6 +4,6 @@
   - projectile{
     b=DISPLAY;mat=mud;hp=false;hnp=true; 
     oh=[
-      - e:p{e=Campfire_Cosy_Smoke;a=19;vs=1;hs=1} @origin 
+      - e:p{p=Campfire_Cosy_Smoke;a=19;vs=1;hs=1} @origin 
       - damage{a=10}
     ]} @TL
