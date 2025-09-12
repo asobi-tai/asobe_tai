@@ -9,6 +9,6 @@ asobi_tai_ロッド仮:
    PreventStacking: true
   Attributes:
     Mainhand:
-      Damage: 20 ADD
+      Damage: 50 ADD
   Skills:
   - skill{s=ロッド仮_Skill} @self ~onSwing 
