@@ -8,9 +8,9 @@
   Skills:
   - modifyMana{a=-70} @self
   - projectile{
-    b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;
+    b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;bulletscale=2;
     ot=[
-      - e:p{e=End_Rod;a=20;vs=0.8;hs=0.8} @origin
+      - e:p{p=Enchanted_Hit;a=20;vs=0.8;hs=0.8} @origin
     ];    
     oh=[
       - e:p{p=Campfire_Cosy_Smoke;a=19;vs=1;hs=1} @origin 
