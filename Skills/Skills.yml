@@ -6,9 +6,9 @@
       - message{m="&cマナが足りません。"} @self 
     ]}
   Skills:
-  - modifyMana{a=-70} @self
+  - modifyMana{a=-150} @self
   - projectile{
-    b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;bulletscale=3;
+    b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;bulletscale=1.4;
     ot=[
       - e:p{p=Enchanted_Hit;a=20;vs=0.8;hs=0.8} @origin
     ];    
