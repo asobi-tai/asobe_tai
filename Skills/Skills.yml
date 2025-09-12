@@ -14,6 +14,6 @@
     ];    
     oh=[
       - e:p{p=Campfire_Cosy_Smoke;a=19;vs=1;hs=1} @origin 
-      - damage{a=10;ii=true;pi=true}
+      - damage{a=100;ii=true;pi=true}
     ]} @TL
   
