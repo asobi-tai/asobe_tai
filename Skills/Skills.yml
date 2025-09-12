@@ -8,7 +8,7 @@
   Skills:
   - modifyMana{a=-70} @self
   - projectile{
-    b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;scale=1.3;
+    b=DISPLAY;mat=mud;hp=false;hnp=true;v=50;se=false;scale=3;
     ot=[
       - e:p{p=Enchanted_Hit;a=20;vs=0.8;hs=0.8} @origin
     ];    
